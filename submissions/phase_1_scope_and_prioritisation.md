@@ -71,21 +71,14 @@ A change model covering Awareness, Desire, Knowledge, Ability and Reinforcement 
 - Advanced personalisation:
     - Customers cannot personalise their portal experience beyond the basic account summary and payment plan selection as this requires smart features such as AI-driven payment recommendations and predictive analytics which are out of scope for Phase 1. We need a solid baseline data on how customers actually use the basic portal.
 
-Starter examples:
-- hardship assessment
-- bespoke repayment negotiation
-- legal escalation workflow
-- major core-platform replacement
-- advanced personalisation
+## Deliverable planning
 
-## Assumptions
-
-Record what must be true for this scope to work.
-
-Examples:
-- legacy data needed for account summary is accessible enough for Phase 1
-- eligibility rules can be agreed without full policy redesign
-- operations will support a limited pilot or phased rollout
+| Deliverable | Deadline | Time required / Potential blockers | Justification |
+|---|---|---|---|
+| To-Be workflow | 18/08/26 | 5 hours / Incorrect/optimistic ROI ranking | Shows the Smart-Recovery journey and its exception paths |
+| Prioritised Jira backlog | 19/08/26 | 8 hours | Translating the To-Be process map into specific, buildable user stories with acceptance criteria. Allows the abstract workflow to become concrete deliverables for the development team. |
+| AI-built prototype | 20/08/26 | 8 hours / Data availability and model accuracy | Developing a prototype using GitHub Copilot to assist in the Smart-Recovery process. Potential blockers include the availability of clean data and ensuring the model's recommendations are accurate and compliant. |
+| State of the Product executive briefing slide deck | 21/08/26 | 5 hours | Using the pyramid principle to structure arguments, clearly explain why Legacy Trust should act now, what Phase 1 delivers and why the proposal is credible. |
 
 ## Dependencies and constraints
 
