@@ -76,23 +76,19 @@ A change model covering Awareness, Desire, Knowledge, Ability and Reinforcement 
 | Deliverable | Deadline | Time required / Potential blockers | Justification |
 |---|---|---|---|
 | To-Be workflow | 18/08/26 | 5 hours / Incorrect/optimistic ROI ranking | Shows the Smart-Recovery journey and its exception paths |
-| Prioritised Jira backlog | 19/08/26 | 8 hours | Translating the To-Be process map into specific, buildable user stories with acceptance criteria. Allows the abstract workflow to become concrete deliverables for the development team. |
-| AI-built prototype | 20/08/26 | 8 hours / Data availability and model accuracy | Developing a prototype using GitHub Copilot to assist in the Smart-Recovery process. Potential blockers include the availability of clean data and ensuring the model's recommendations are accurate and compliant. |
+| Prioritised Jira backlog | 19/08/26 | 8 hours | Translating the To-Be process map into specific, buildable user stories (~15) with acceptance criteria. Allows the abstract workflow to become concrete deliverables for the development team. |
+| AI-built prototype | 20/08/26 | 8 hours | Developing a prototype using GitHub Copilot to assist in the Smart-Recovery process. Potential blockers include the availability of clean data and ensuring the model's recommendations are accurate and compliant. |
 | State of the Product executive briefing slide deck | 21/08/26 | 5 hours | Using the pyramid principle to structure arguments, clearly explain why Legacy Trust should act now, what Phase 1 delivers and why the proposal is credible. |
 
 ## Dependencies and constraints
 
-Note the most important delivery and operating constraints.
-
-Examples:
-- legacy system data availability
-- compliance approval for messages and audit trail
-- agent workflow alignment for routed cases
+Dependencies:
+- IT Architecture and API team availability for integration with legacy systems. If delayed, it prevents frontend engineering for direct card payments and instant receipts.
+- Compliance and legal clearance for formal compliance sign-off on the identity verification and the simple, plain english account summary. If delayed, it prevents the portal from going live due to FCA guidelines.
+- Operations leadership must approve a single, unified "Speak to a Specialist" callback queue to manage all customer call-backs (vulnerability/hardship, extended promises, etc.). If delayed, customers will be confused by multiple callback queues and the portal will not be able to provide a seamless experience.
 
 ## Why this scope is credible
 
-Write 1-2 paragraphs linking the chosen scope to:
-- Week 1 top-ranked opportunities
-- measurable value
-- delivery feasibility
-- change and adoption risk
+The chosen scope for Phase 1 comes directly out of our week 1 evaluation. The top-ranked opportunities were OPP-01 (Account Summary), OPP-02 (Direct Payment Processing), and OPP-03 (Promise-to-Pay Capture). These opportunities were selected based on the highest-value features. At a total implementation cost of £130,000, this scope will deliver over £640,000 conservative annual value with a complete payback period in under 1.5 months. Moreover, the scope doesn't rely on wild projections about customer behaviour. The investment is based on operational efficiency as it saves around 3.31 hours of spreadsheet admin per agent every day, while dealing with the regulatory FCA compliance requirements. The statistics are from [ROI model](https://docs.google.com/spreadsheets/d/13X9shDs3kk0TCBXhh22O_8N7N4BIemz1xmRbUKPmzqY/edit?usp=sharing).
+
+We are not focusing on automated case routing until phase 2 as it requires human judgement and vulnerability markers that are not yet available in the database. This is a high-risk area that could lead to FCA violations if implemented prematurely. Moreover, every out-of-scope element uses a single, unified "Speak to a Specialist" callback form. This ensures struggling customers get human support without losing their progress, while giving the collections team a predictable, manageable workload. This combined with updating supervisor targets away from raw call volume and toward self-service success, ensures that the scope is credible and feasible to deliver. The change and adoption risk is mitigated by the clear, simple UI, automated reminders, and instant confirmation of payments, which will reinforce trust and encourage customers to use the portal effectively.
