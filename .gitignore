@@ -10,7 +10,6 @@ Thumbs.db
 *.bak
 
 # Export artifacts
-*.png
 *.jpg
 *.jpeg
 *.pdf
